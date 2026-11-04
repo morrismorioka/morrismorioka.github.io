@@ -226,6 +226,7 @@ main{padding-top:58px}
 .seen .wrap{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;align-items:baseline;padding:1.1rem var(--gut)}
 .seen b{font-family:var(--label);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.8rem;color:var(--red)}
 .seen span.o{font-family:var(--label);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.9rem;color:#44444a}
+.places{margin:1rem 0 0;padding-left:1.2rem}.places li{margin:.3rem 0;line-height:1.5}.places a{border-bottom:1.5px solid var(--red)}.places a:hover{color:var(--red)}
 .facts{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.9rem}
 .facts span{font-family:var(--label);font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:.82rem;border:1.5px solid var(--ink);padding:.15rem .6rem}
 .w .ph.multi{aspect-ratio:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:6px;background:none;align-self:start}.w .ph.multi img{aspect-ratio:4/3;cursor:zoom-in}.w .ph.multi img:first-child{grid-column:1/-1}.w .ph.multi.m2{grid-template-columns:repeat(2,1fr)}.w .ph.multi.pair img:first-child{grid-column:auto}.w .ph.multi.pair img{aspect-ratio:1/1}
@@ -278,7 +279,7 @@ footer{background:var(--paper);color:var(--ink);border-top:1px solid var(--line)
 <body>
 <header class="nav">
 <div class="wrap navin">
-<a aria-label="Morris Morioka, home" class="logo" href="#work"><svg aria-hidden="true" class="mono" viewbox="0 0 48 48"><rect fill="#e4002b" height="48" rx="11" width="48"></rect><path d="M10 9h12c9 0 16 6 16 15s-7 15-16 15H10zM18 16v16h4c5 0 8-3.200 8-8s-3-8-8-8z" fill="#fff" fill-rule="evenodd"></path><circle cx="35" cy="35" fill="#0b0b0c" r="8.500" stroke="#fff" stroke-width="2"></circle><path d="M26.800 35h16.400M35 26.800v16.400" fill="none" stroke="#fff" stroke-width="1.600"></path></svg><span>DOORDO</span></a>
+<a aria-label="Morris Morioka, home" class="logo" href="#work"><svg aria-hidden="true" class="mono" viewbox="0 0 48 48"><rect fill="#e4002b" height="48" rx="11" width="48"></rect><path d="M10 9h12c9 0 16 6 16 15s-7 15-16 15H10zM18 16v16h4c5 0 8-3.200 8-8s-3-8-8-8z" fill="#fff" fill-rule="evenodd"></path><circle cx="35" cy="35" fill="#fff" r="6.500"></circle></svg><span>DOORDO</span></a>
 <nav aria-label="Main" class="menu">
 <a data-p="work" href="#work">WORK</a>
 <a data-p="who" href="#who">WHO</a>
@@ -324,7 +325,7 @@ footer{background:var(--paper);color:var(--ink);border-top:1px solid var(--line)
 <a class="card c3" href="#case-thunder"><img alt="Oklahoma City Thunder game-night staff" src="images/okc-staff.jpg" style="object-position:50% 30%"/><span class="no">03</span><div class="tag">NBA · Oklahoma · 2010–11</div><h3>Oklahoma City Thunder</h3><p>200-to-1 to get in. A full season. On Japanese TV.</p></a>
 <a class="card c4" href="#case-alvark"><img alt="Toyota Alvark Tokyo flags" src="images/alvark-flags.jpg" style="object-position:50% 45%"/><span class="no">04</span><div class="tag">B.League · Tokyo · 2016–19</div><h3>Toyota Alvark Tokyo</h3><p>90+ home games. One robot named CUE.</p></a>
 <a class="card c5" href="#case-ironpigs"><img alt="Coca-Cola Park, home of the Lehigh Valley IronPigs" src="images/ip-stadium.jpg" style="object-position:50% 55%"/><span class="no">05</span><div class="tag">MiLB · Pennsylvania · 2012–14</div><h3>Lehigh Valley IronPigs</h3><p>A new global program with an 80% profit margin.</p></a>
-<a class="card c6" href="#case-jhn"><img alt="Toyota Field scoreboard in Japanese for Japanese Heritage Night" src="images/jhn-scoreboard.jpg" style="object-position:50% 45%"/><span class="no">06</span><div class="tag">MiLB · Community · 2025–26</div><h3>Japanese Heritage Night</h3><p>Golden Bobblehead nominee. About 4,300 fans. Funded by 94 people.</p></a>
+<a class="card c6" href="#case-jhn"><img alt="Toyota Field scoreboard in Japanese for Japanese Heritage Night" src="images/jhn-scoreboard.jpg" style="object-position:50% 45%"/><span class="no">06</span><div class="tag">MiLB · Community · 2025–26</div><h3>Japanese Heritage Night</h3><p>Golden Bobblehead nominee (2025). About 4,300 fans in 2026. 103 contributions from 94 individuals.</p></a>
 </div>
 </div></div>
 </section>
@@ -387,7 +388,7 @@ footer{background:var(--paper);color:var(--ink);border-top:1px solid var(--line)
 <div class="wrap">
 <a class="back" href="#work">← Work</a>
 <div class="chead"><div class="label red">MiLB · Community · 2025–26</div><h1 class="disp">Japanese<br/>Heritage Night</h1>
-<p>Rocket City Trash Pandas · built from the ground up · 2026 edition on September 5.</p></div>
+<p>Rocket City Trash Pandas · built from the ground up · held in 2025 and 2026 (2026 edition on September 5).</p></div>
 </div>
 <div class="hero-img"><img alt="Kids performing a Japanese dance on the field" src="images/jhn-kids-dance.jpg" style="object-position:50% 55%"/></div>
 <div class="wrap">
@@ -396,15 +397,15 @@ footer{background:var(--paper);color:var(--ink);border-top:1px solid var(--line)
 <p>Turn one night into a true celebration of Japanese culture, and fund it through the community when a big corporate title sponsor was not coming.</p>
 </div>
 <div class="col"><h4>Action</h4>
-<ul><li>Launched a “TEAM JAPAN” individual-sponsor campaign while working a 33-company list.</li><li>Designed about 100 nobori flags, about 100 chochin lanterns and a cheering program adapted to MiLB rules.</li><li>Added local kids' dance, an art expo with the Japanese school and a fireworks finale.</li></ul>
+<ul><li>Launched a “TEAM JAPAN” individual-sponsor campaign.</li><li>Designed about 100 nobori flags, about 100 chochin lanterns and a cheering program adapted to MiLB rules.</li><li>Added local kids' dance, an art expo with the Japanese school and a fireworks finale.</li></ul>
 </div>
 <div class="col"><h4>Result</h4>
-<div class="big">2025</div><div class="bigl">Golden Bobblehead nomination</div>
+<div class="big">2025</div><div class="bigl">Golden Bobblehead nomination (representing the team)</div>
 <div class="big">~4,300</div><div class="bigl">fans in 2026</div>
-<div class="big">94</div><div class="bigl">people made 103 contributions</div></div>
+<div class="big">103</div><div class="bigl">contributions from 94 individuals in 2026</div></div>
 </div>
 <div class="btns"><a class="btn red" data-link="jhnVideo" rel="noopener" target="_blank">The story behind the night ↗</a></div>
-<div class="gal"><img alt="Kids performing a Japanese dance on the field" loading="lazy" src="images/jhn-kids-dance.jpg"/><img alt="Scoreboard in Japanese" loading="lazy" src="images/jhn-scoreboard.jpg"/><img alt="Eisa drummers on the field" loading="lazy" src="images/jhn-eisa.jpg"/><img alt="Trash Pandas players in the Japanese Heritage Night jerseys" loading="lazy" src="images/jhn-players.jpg"/><img alt="Fans trying calligraphy in the concourse" loading="lazy" src="images/jhn-calligraphy.jpg"/><img alt="Hina doll display in the concourse" loading="lazy" src="images/jhn-hina.jpg"/><img alt="Singers and pianist for the pregame performance" loading="lazy" src="images/jhn-anthem.jpg"/><img alt="Raffle table for the Trash Pandas Foundation with Japanese baseball stars" loading="lazy" src="images/jhn-raffle.jpg"/><img alt="Japanese nobori banners at the Toyota Field gate" loading="lazy" src="images/jhn-nobori.jpg"/><img alt="Fans folding origami cranes at the Japanese Heritage Night activity table" loading="lazy" src="images/jhn-origami.jpg"/><img alt="Judo demonstration on the field" loading="lazy" src="images/jhn-judo.jpg"/><img alt="Voting table for the Japanese School kids summer project" loading="lazy" src="images/jhn-vote.jpg"/><img alt="The Japanese Heritage Night 2026 partner boards" loading="lazy" src="images/jhn-partners.jpg"/></div>
+<div class="gal"><img alt="Kids performing a Japanese dance on the field" loading="lazy" src="images/jhn-kids-dance.jpg"/><img alt="Scoreboard in Japanese" loading="lazy" src="images/jhn-scoreboard.jpg"/><img alt="Eisa drummers on the field" loading="lazy" src="images/jhn-eisa.jpg"/><img alt="Trash Pandas players in the Japanese Heritage Night jerseys" loading="lazy" src="images/jhn-players.jpg"/><img alt="Fans trying calligraphy in the concourse" loading="lazy" src="images/jhn-calligraphy.jpg"/><img alt="Hina doll display in the concourse" loading="lazy" src="images/jhn-hina.jpg"/><img alt="Singers and pianist for the pregame performance" loading="lazy" src="images/jhn-anthem.jpg"/><img alt="Raffle table for the Trash Pandas Foundation with Japanese baseball stars" loading="lazy" src="images/jhn-raffle.jpg"/><img alt="Japanese nobori banners at the Toyota Field gate" loading="lazy" src="images/jhn-nobori.jpg"/><img alt="Fans folding origami cranes at the Japanese Heritage Night activity table" loading="lazy" src="images/jhn-origami.jpg"/><img alt="Judo demonstration on the field" loading="lazy" src="images/jhn-judo.jpg"/><img alt="Voting table for the Japanese School kids summer project" loading="lazy" src="images/jhn-vote.jpg"/><img alt="The Japanese Heritage Night 2026 partner boards listing every supporter" loading="lazy" src="images/jhn-partners.jpg"/></div>
 <div class="next"><a href="#case-ironpigs">← Lehigh Valley IronPigs</a><a href="#who">Who →</a></div>
 </div>
 </section>
@@ -449,10 +450,10 @@ footer{background:var(--paper);color:var(--ink);border-top:1px solid var(--line)
 <p>Find new business inside a minor-league ballpark, with a small team and a limited budget.</p>
 </div>
 <div class="col"><h4>Action</h4>
-<ul><li>Created the Short Term Internship Program, a new global program.</li><li>Managed 2 full-time interns and 10 game-day staff.</li></ul>
+<ul><li>Created the Short Term Internship Program, a new global program.</li><li>Managed 3 full-time interns and 30 promotion crew over 3 seasons (each season: 1 full-time intern and 10 game-day staff).</li></ul>
 </div>
 <div class="col"><h4>Result</h4>
-<div class="big">80%</div><div class="bigl">profit margin on the new program</div><div class="big">~40</div><div class="bigl">people joined the internship program</div></div>
+<div class="big">80%</div><div class="bigl">profit margin on the new program</div><div class="big">40+</div><div class="bigl">people joined the internship program</div></div>
 </div>
 <ul class="press wide"><li><span class="pd">Apr 14, 2010</span><span class="po">The Morning Call</span><span class="pt">IronPigs’ 2010 promotions: intern Morris “may be the fun and games department’s secret weapon”</span><img alt="Clipping: The Morning Call" class="pi" loading="lazy" src="images/press/morning-call.jpg"/></li></ul>
 <div class="gal"><img alt="An internship training session at Coca-Cola Park" loading="lazy" src="images/ip-stip-class.jpg"/><img alt="Interns standing for the anthem with the mascots" loading="lazy" src="images/ip-stip-anthem.jpg"/><img alt="Running a game-day promotion in the stands at Coca-Cola Park" loading="lazy" src="images/ip-stands-toss.jpg"/><img alt="Fans reaching up during a game-day giveaway at Coca-Cola Park" loading="lazy" src="images/ip-stands-crowd.jpg"/><img alt="Presenting the IronPigs to a Japanese audience in Tokyo" loading="lazy" src="images/ip-seminar.jpg"/><img alt="Coca-Cola Park on a sunny game day" loading="lazy" src="images/ip-stadium.jpg"/><img alt="Whack an Intern, a between-inning game on the field" loading="lazy" src="images/ip-whack.jpg"/><img alt="With Japanese players and the IronPigs game-day crew" loading="lazy" src="images/ip-japan-players.jpg"/><img alt="Panorama of Coca-Cola Park at sunset" loading="lazy" src="images/ip-panorama.jpg"/><img alt="Coca-Cola Park main gate" loading="lazy" src="images/ip-gate.jpg"/></div>
@@ -489,14 +490,14 @@ footer{background:var(--paper);color:var(--ink);border-top:1px solid var(--line)
 </section>
 <!-- ======================= WHO ======================= -->
 <section class="page" data-title="Who — Morris Morioka" id="p-who">
-<div class="pagehead"><div class="wrap"><h1 class="disp h1">Who.</h1><p class="sub">Born in Okayama. Working across two countries and three leagues.</p></div></div>
+<div class="pagehead"><div class="wrap"><h1 class="disp h1">Who.</h1><p class="sub">Born in Okayama, Japan. Working across two countries and three leagues.</p></div></div>
 <div class="sec"><div class="wrap">
 <div class="intro">
 <div class="portrait"><img alt="Morris Morioka" src="images/portrait.jpg" style="object-position:50% 30%"/></div>
 <div>
 <p class="lead">I make sports nights that people remember.</p>
 
-<p>I grew up in Okayama, studied in Kyoto and Vancouver, and have spent 15+ years in sports entertainment across the NBA, B.League and MiLB, in Japanese and in English.</p>
+<p>I grew up in Okayama, studied in Kyoto, Japan and Vancouver, Canada, and have spent 15+ years in sports entertainment across the NBA, B.League and MiLB, in Japanese and in English.</p>
 
 <p>Today I am Senior Manager of Promotions &amp; Entertainment at the Rocket City Trash Pandas, the Double-A affiliate of the Los Angeles Angels, based in Madison, Alabama.</p>
 
@@ -523,7 +524,7 @@ footer{background:var(--paper);color:var(--ink);border-top:1px solid var(--line)
 <li>University of British Columbia<br/><span class="mute">International Studies · Vancouver · 2004–05</span></li></ul></div>
 </div>
 <div class="story">
-<p>I started in 2010 as an intern with the Lehigh Valley IronPigs, then joined the Oklahoma City Thunder as an Entertainment Associate for the 2010–11 season. From 2012 to 2015 I was back with the IronPigs as a Manager. Back in Japan I worked with the NFL, the B.League and Rakuten, where I led the NBA Japan Games. In 2025 I moved my family to Alabama to build fan entertainment for the Trash Pandas.</p>
+<p>I started in 2010 as an intern with the Lehigh Valley IronPigs, then joined the Oklahoma City Thunder as an Entertainment Associate for the 2010–11 season. From 2012 to 2015 I was back with the IronPigs as a Manager. Back in Japan I worked with NFL Japan, Alvark Tokyo (B.League) and Rakuten, where I led the NBA Japan Games 2022. In 2025 I moved my family to Alabama to build fan entertainment for the Trash Pandas.</p>
 
 </div>
 <h2 class="disp h2" style="margin-top:4.5rem">Favorite words</h2>
@@ -531,7 +532,7 @@ footer{background:var(--paper);color:var(--ink);border-top:1px solid var(--line)
 <!-- To add a quote, copy one block below and paste it under the last one. -->
 <div class="q"><div class="qt">DO OR DO</div></div>
 <div class="q"><div class="qt sm">If you put your mind to it, you can accomplish anything.</div>
-<p class="qc">Doc Brown, Back to the Future. In the Japanese version the line became “Naseba naru.”</p>
+<p class="qc">Dr. Emmett Brown, Back to the Future</p>
 </div>
 </div>
 </div></div>
@@ -541,10 +542,10 @@ footer{background:var(--paper);color:var(--ink);border-top:1px solid var(--line)
 <div class="pagehead"><div class="wrap"><h1 class="disp h1">Wow.</h1><p class="sub">Challenges I took on, on and off the clock.</p></div></div>
 <div class="sec"><div class="wrap"><div class="wlist">
 <div class="w"><div class="n">01</div><div><h3>Tsunami Relief Dribble</h3>
-<p>In January 2012 I dribbled a basketball 370 km (230 miles) from Shibuya, Tokyo to Sendai in 12 days, through snow and cold, collecting messages of support for Tohoku. More than 200 people welcomed me at the Sendai City Gymnasium, where I handed the ball to the Sendai 89ers before their home game. The donations, including ¥457,000 from 56 supporters online, went to a program that gives basketballs to junior high schools in Miyagi. Reuters carried the story around the world.</p>
+<p>In January 2012 I dribbled a basketball 370 km (230 miles) from Shibuya, Tokyo to Sendai in 12 days, through snow and cold, collecting messages of support for Tohoku. More than 200 people welcomed me at the Sendai City Gymnasium, where I handed the ball to the Sendai 89ers before their home game. The donations, including $5,700 (457,000 JPY) from 56 supporters online, went to a program that gives basketballs to junior high schools in Miyagi. Reuters carried the story around the world.</p>
 
-<div class="facts"><span>370 km (230 mi)</span><span>12 days</span><span>200+ at the finish</span><span>¥457,000 · 56 supporters</span></div>
-<ul class="press"><li><span class="pd">Feb 3, 2012</span><span class="po">Reuters</span><span class="pt">Basketball fan dribbles 370 km for tsunami-hit kids</span><a aria-label="Open" class="pl" data-link="reutersLink" rel="noopener" target="_blank">↗</a><img alt="Clipping: Reuters" class="pi" loading="lazy" src="images/press/reuters.jpg"/></li><li><span class="pd">Mar 12, 2012</span><span class="po">SLAM</span><span class="pt">Q+A: Hiroshi “Morris” Morioka</span><a aria-label="Open" class="pl" data-link="slamLink" rel="noopener" target="_blank">↗</a><img alt="Clipping: SLAM" class="pi" loading="lazy" src="images/press/slam.jpg"/></li><li><span class="pd">Jan 30, 2012</span><span class="po">Tokyo Shimbun</span><span class="pt">A 370 km bond by dribble: cheering up the disaster area with a “genki ball”</span><img alt="Clipping: Tokyo Shimbun" class="pi" loading="lazy" src="images/press/tokyo-shimbun.jpg"/></li><li><span class="pd">Jan 30, 2012</span><span class="po">Kahoku Shimpo</span><span class="pt">Passing energy to the disaster area: 370 km dribble completed</span><img alt="Clipping: Kahoku Shimpo" class="pi" loading="lazy" src="images/press/kahoku.jpg"/></li><li><span class="pd">Jan 21, 2012</span><span class="po">Shimotsuke Shimbun</span><span class="pt">Dribbling for earthquake recovery, on the way to Sendai</span><img alt="Clipping: Shimotsuke Shimbun" class="pi" loading="lazy" src="images/press/shimotsuke.jpg"/></li><li><span class="pd">Mar 2012</span><span class="po">HOOP</span><span class="pt">GENKIDAMA370: dribbling from Tokyo to Sendai</span><img alt="Clipping: HOOP" class="pi" loading="lazy" src="images/press/hoop-genki.jpg"/></li></ul>
+<div class="facts"><span>370 km (230 mi)</span><span>12 days</span><span>200+ at the finish</span><span>$5,700 (457,000 JPY) · 56 supporters</span></div>
+<ul class="press"><li><span class="pd">Feb 3, 2012</span><span class="po">Reuters</span><span class="pt">Basketball fan dribbles 370 km for tsunami-hit kids</span><a aria-label="Open" class="pl" data-link="reutersLink" rel="noopener" target="_blank">↗</a><img alt="Clipping: Reuters" class="pi" loading="lazy" data-full="images/press/reuters-full.jpg" src="images/press/reuters.jpg"/></li><li><span class="pd">Mar 12, 2012</span><span class="po">SLAM</span><span class="pt">Q+A: Hiroshi “Morris” Morioka</span><a aria-label="Open" class="pl" data-link="slamLink" rel="noopener" target="_blank">↗</a><img alt="Clipping: SLAM" class="pi" loading="lazy" data-full="images/press/slam-full.jpg" src="images/press/slam.jpg"/></li><li><span class="pd">Jan 30, 2012</span><span class="po">Tokyo Shimbun</span><span class="pt">A 370 km bond by dribble: cheering up the disaster area with a “genki ball”</span><img alt="Clipping: Tokyo Shimbun" class="pi" loading="lazy" src="images/press/tokyo-shimbun.jpg"/></li><li><span class="pd">Jan 30, 2012</span><span class="po">Kahoku Shimpo</span><span class="pt">Passing energy to the disaster area: 370 km dribble completed</span><img alt="Clipping: Kahoku Shimpo" class="pi" loading="lazy" src="images/press/kahoku.jpg"/></li><li><span class="pd">Jan 21, 2012</span><span class="po">Shimotsuke Shimbun</span><span class="pt">Dribbling for earthquake recovery, on the way to Sendai</span><img alt="Clipping: Shimotsuke Shimbun" class="pi" loading="lazy" src="images/press/shimotsuke.jpg"/></li><li><span class="pd">Mar 2012</span><span class="po">HOOP</span><span class="pt">GENKIDAMA370: dribbling from Tokyo to Sendai</span><img alt="Clipping: HOOP" class="pi" loading="lazy" data-full="images/press/hoop-genki-full.jpg" src="images/press/hoop-genki.jpg"/></li></ul>
 <div class="btns"><a class="btn" data-link="tsunamiPress" rel="noopener" target="_blank">Project page ↗</a></div></div>
 <div class="ph multi m2"><img alt="Dribbling a basketball past a road sign: Sendai 64 km" loading="lazy" src="images/tsu-sign.jpg"/><img alt="Walking in the snow with a sign on my back: Tokyo to Sendai, 370 km" loading="lazy" src="images/tsu-back.jpg"/><img alt="Standing in front of a house wrecked by the tsunami in Miyagi" loading="lazy" src="images/tsu-house.jpg"/><img alt="With the Sendai 89ers mascot at the finish" loading="lazy" src="images/tsu-89ers.jpg"/><img alt="Speaking to the press and a crowd on the way" loading="lazy" src="images/tsu-interview.jpg"/></div></div>
 <div class="w"><div class="n">02</div><div><h3>Hot Dog Man</h3>
@@ -553,26 +554,37 @@ footer{background:var(--paper);color:var(--ink);border-top:1px solid var(--line)
 <div class="btns"><a class="btn red" data-link="instagram" rel="noopener" target="_blank">Instagram ↗</a></div></div>
 <div class="ph multi m2"><img alt="Hot Dog Man on stilts walking past the stands" loading="lazy" src="images/hdm-stilts.jpg"/><img alt="Hot Dog Man pointing at kids along the rail" loading="lazy" src="images/hdm-kids.jpg" style="object-position:50% 6%"/><img alt="Hot Dog Man on stilts with a fan holding a baseball" loading="lazy" src="images/hdm-fan.jpg" style="object-position:50% 14%"/></div></div>
 <div class="w"><div class="n">03</div><div><h3>Free Throw Distraction Project</h3>
-<p>At the Oklahoma City Thunder in 2010–11, I co-developed a data-driven initiative to make our arena the toughest environment in the NBA for visiting free-throw shooters. We benchmarked all 30 arenas on visitor free-throw performance (OKC ranked 14th), reviewed academic research and the Dallas Mavericks' ThunderStix test, and designed a scripted in-arena activation for late-game moments. I presented the proposal to department leadership, and it advanced close to implementation. A modern dashboard version is next.</p>
+<p>At the Oklahoma City Thunder in 2010–11, I co-developed a data-driven initiative to make our arena the toughest environment in the NBA for visiting free-throw shooters. We benchmarked all 30 arenas on visitor free-throw performance (OKC ranked 14th), reviewed academic research and the Dallas Mavericks' ThunderStix test, and designed a scripted in-arena activation for late-game moments. I presented the proposal to department leadership. A modern dashboard version is next.</p>
 <div class="facts"><span>30 arenas</span><span>OKC ranked 14th</span><span>OKC 2010–11</span></div>
 <div class="btns"><a class="btn" href="#case-thunder">The Thunder story →</a></div></div>
 <div class="ph multi m2"><img alt="Slide: week-by-week OKC arena free throw difficulty ranking, with the question How do we make them worse?" loading="lazy" src="images/ft-weekly.jpg"/><img alt="Slide: free throw difficulty ranking of all 30 NBA arenas" loading="lazy" src="images/ft-ranking.jpg"/><img alt="Slide: conclusion and application ideas" loading="lazy" src="images/ft-plan.jpg"/></div></div>
 <div class="w"><div class="n">04</div><div><h3>Riceballs for the team</h3>
-<p>At the Oklahoma City Thunder I made 20 to 30 riceballs before every home game, playoffs included, about 50 times in all, for the entertainment staff and the Storm Chasers. The Director of Entertainment loved them and asked me to keep going all season. It began in my IronPigs internship: my English was not good enough yet to talk with other staff, so I made riceballs to share Japanese food and culture. I made them now and then in 2012–14, and in 2025 and 2026 for all 69 Trash Pandas home games plus other games and events. More than 150 times, 25 riceballs each.</p>
+<p>At the Oklahoma City Thunder I made 20 to 30 riceballs before every home game, playoffs included, about 50 times in all, for the entertainment staff and the Storm Chasers. The Director of Entertainment loved them and asked me to keep going all season. It began in my IronPigs internship, when riceballs gave me a way to communicate with my colleagues and share Japanese food and culture. I made them now and then in 2012–14, and in 2025 and 2026 for all 69 Trash Pandas home games plus other games and events. More than 150 times, 25 riceballs each.</p>
 
 <div class="facts"><span>25 per batch</span><span>150+ batches</span><span>Since the IronPigs internship</span></div></div>
 <div class="ph"><img alt="A tray of riceballs in front of a Thunder sign" loading="lazy" src="images/okc-riceballs.jpg"/></div></div>
 <div class="w"><div class="n">05</div><div><h3>College Dribbles</h3>
-<p>While I was at college in Kyoto, I dribbled a basketball home to Okayama, about 200 km (125 miles) in 6 days in August 2006, and from Kyoto to Tokyo, about 500 km (310 miles) in 13 days in March 2007. Both were to promote basketball in Japan, and local newspapers followed the first one the whole way.</p>
+<p>While I was at college in Kyoto, I dribbled a basketball home to Okayama, about 210 km (130 miles) in 6 days in August 2006, and from Kyoto to Tokyo, about 500 km (310 miles) in 13 days in March 2007. Both were to promote basketball in Japan, and local newspapers followed the first one the whole way.</p>
 
-<div class="facts"><span>Kyoto to Okayama · 200 km (125 mi) · 6 days</span><span>Kyoto to Tokyo · 500 km (310 mi) · 13 days</span></div>
+<div class="facts"><span>Kyoto to Okayama · 210 km (130 mi) · 6 days</span><span>Kyoto to Tokyo · 500 km (310 mi) · 13 days</span></div>
 <ul class="press"><li><span class="pd">Aug 5, 2006</span><span class="po">Kyoto Shimbun</span><span class="pt">Everyone, let’s play basketball! A 200 km dribbling journey to Okayama</span><img alt="Clipping: Kyoto Shimbun" class="pi" loading="lazy" src="images/press/kyoto-shimbun.jpg"/></li><li><span class="pd">Aug 16, 2006</span><span class="po">Okayama Nichinichi Shimbun</span><span class="pt">Dribbling home: 200 km, Kyoto to Okayama</span><img alt="Clipping: Okayama Nichinichi Shimbun" class="pi" loading="lazy" src="images/press/okayama-nichinichi.jpg"/></li><li><span class="pd">Aug 16, 2006</span><span class="po">Sanyo Shimbun</span><span class="pt">Kyoto to family home, 200 km completed by dribble</span><img alt="Clipping: Sanyo Shimbun" class="pi" loading="lazy" src="images/press/sanyo.jpg"/></li><li><span class="pd">Aug 26, 2006</span><span class="po">Ako Minpo</span><span class="pt">Dribbling Kyoto to Okayama, 200 km: “Let’s play basketball!”</span><img alt="Clipping: Ako Minpo" class="pi" loading="lazy" src="images/press/ako-minpo.jpg"/></li><li><span class="pd">Oct 2006</span><span class="po">Gakushin</span><span class="pt">Kyoto to Okayama, 200 km dribble completed</span><img alt="Clipping: Gakushin" class="pi" loading="lazy" src="images/press/gakushin.jpg"/></li></ul></div>
 <div class="ph multi m2 pair"><img alt="Dribbling along the lake in Shiga on the way from Kyoto to Tokyo" loading="lazy" src="images/cd-shiga.jpg"/><img alt="Arriving at Tokyo Tower after dribbling from Kyoto" loading="lazy" src="images/cd-tower.jpg"/></div></div>
 <div class="w"><div class="n">06</div><div><h3>Basketball Around the World</h3>
-<p>I travel to learn how basketball events and entertainment work in other countries: the NBA Paris Game in 2023, the NBA Abu Dhabi Game in 2024, the FIBA Basketball World Cup in China in 2019, EuroLeague games with Olympiacos in Greece, Galatasaray and Fenerbahçe in Turkey and Hapoel Jerusalem in Israel, and a EuroCup game with JL Bourg-en-Bresse in France.</p>
-
-<div class="facts"><span>NBA Paris 2023</span><span>NBA Abu Dhabi 2024</span><span>FIBA World Cup 2019</span><span>EuroLeague</span><span>EuroCup</span></div></div>
-<div class="ph multi m2"><img alt="EuroLeague ticket, Olympiacos vs Real Madrid in Piraeus, January 2023" loading="lazy" src="images/world-piraeus.jpg" style="object-position:50% 60%"/><img alt="NBA Abu Dhabi Games at Etihad Arena" loading="lazy" src="images/world-abudhabi.jpg" style="object-position:50% 62%;aspect-ratio:1/1"/><img alt="Galatasaray home game in Istanbul at Sinan Erdem Dome" loading="lazy" src="images/world-istanbul.jpg" style="object-position:50% 66%"/></div></div>
+<p>I travel to learn how basketball events and entertainment work in other countries. Where I have been:</p>
+<ul class="places">
+<li>FIBA World Cup 2019 (China)</li>
+<li>NBA Paris Game 2023 (France)</li>
+<li>NBA Abu Dhabi Game 2024 (UAE)</li>
+<li><a href="https://www.olympiacosbc.gr/el/" target="_blank" rel="noopener">Olympiacos BC</a> (Greece, EuroLeague)</li>
+<li><a href="https://hapoel.co.il/?lang=en" target="_blank" rel="noopener">Hapoel Jerusalem</a> (Israel, Israel Premier League)</li>
+<li><a href="https://www.fenerbahce.org/basketbolerkek/" target="_blank" rel="noopener">Fenerbahçe</a> (Turkey, EuroLeague)</li>
+<li>Galatasaray (Turkey)</li>
+<li><a href="https://www.anadoluefessk.org/en" target="_blank" rel="noopener">Anadolu Efes</a> (Turkey, EuroLeague)</li>
+<li><a href="https://www.euroleaguebasketball.net/en/eurocup/teams/cosea-jl-bourg-en-bresse/bou/" target="_blank" rel="noopener">Cosea JL Bourg-en-Bresse</a> (France, EuroCup)</li>
+<li><a href="https://en.wikipedia.org/wiki/Beijing_Ducks" target="_blank" rel="noopener">Beijing Ducks</a> (China)</li>
+<li><a href="https://www.newtaipeikings.com/" target="_blank" rel="noopener">New Taipei Kings</a> (Chinese Taipei / Taiwan)</li>
+</ul></div>
+<div class="ph multi m2 pair"><img alt="NBA Abu Dhabi Games at Etihad Arena" loading="lazy" src="images/world-abudhabi.jpg" style="object-position:50% 62%"/><img alt="A EuroLeague game in Istanbul at Sinan Erdem Dome" loading="lazy" src="images/world-istanbul.jpg" style="object-position:50% 66%"/></div></div>
 </div></div></div>
 </section>
 <!-- ======================= HEY ======================= -->
@@ -594,7 +606,7 @@ footer{background:var(--paper);color:var(--ink);border-top:1px solid var(--line)
 </main>
 <footer>
 <div class="wrap foot">
-<span class="m"><svg aria-hidden="true" class="mono sm" viewbox="0 0 48 48"><rect fill="#e4002b" height="48" rx="11" width="48"></rect><path d="M10 9h12c9 0 16 6 16 15s-7 15-16 15H10zM18 16v16h4c5 0 8-3.200 8-8s-3-8-8-8z" fill="#fff" fill-rule="evenodd"></path><circle cx="35" cy="35" fill="#0b0b0c" r="8.500" stroke="#fff" stroke-width="2"></circle><path d="M26.800 35h16.400M35 26.800v16.400" fill="none" stroke="#fff" stroke-width="1.600"></path></svg> DOORDO</span>
+<span class="m"><svg aria-hidden="true" class="mono sm" viewbox="0 0 48 48"><rect fill="#e4002b" height="48" rx="11" width="48"></rect><path d="M10 9h12c9 0 16 6 16 15s-7 15-16 15H10zM18 16v16h4c5 0 8-3.200 8-8s-3-8-8-8z" fill="#fff" fill-rule="evenodd"></path><circle cx="35" cy="35" fill="#fff" r="6.500"></circle></svg> DOORDO</span>
 <span>© 2026 Morris Morioka · Madison, Alabama</span>
 <nav><a href="#" id="fIn" rel="noopener" target="_blank">LinkedIn</a><a href="#" id="fIg" rel="noopener" target="_blank">Instagram</a><a download="" href="#" id="fCv">Résumé</a><a href="#" id="fMail">Email</a></nav>
 </div>
@@ -730,7 +742,7 @@ const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
 /* photo gallery viewer */
 (function(){
   const lb=document.getElementById('lb'), li=document.getElementById('lbi'), lc=document.getElementById('lbc'); let set=[],i=0;
-  function show(){li.src=set[i].src;li.alt=set[i].alt;lc.textContent=(i+1)+' / '+set.length;}
+  function show(){li.src=set[i].dataset.full||set[i].src;li.alt=set[i].alt;lc.textContent=(i+1)+' / '+set.length;}
   function open(g,img){set=[...g.querySelectorAll('img')];i=set.indexOf(img);show();lb.classList.add('on');}
   function close(){lb.classList.remove('on');}
   function step(d){i=(i+d+set.length)%set.length;show();}
